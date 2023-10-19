@@ -537,6 +537,32 @@
   dependencies:
     undici-types "~5.25.1"
 
+"@types/prop-types@*":
+  version "15.7.9"
+  resolved "https://registry.npmmirror.com/@types/prop-types/-/prop-types-15.7.9.tgz#b6f785caa7ea1fe4414d9df42ee0ab67f23d8a6d"
+  integrity sha512-n1yyPsugYNSmHgxDFjicaI2+gCNjsBck8UX9kuofAKlc0h1bL+20oSF72KeNaW2DUlesbEVCFgyV2dPGTiY42g==
+
+"@types/react-dom@^18.2.14":
+  version "18.2.14"
+  resolved "https://registry.npmmirror.com/@types/react-dom/-/react-dom-18.2.14.tgz#c01ba40e5bb57fc1dc41569bb3ccdb19eab1c539"
+  integrity sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^18.2.29":
+  version "18.2.29"
+  resolved "https://registry.npmmirror.com/@types/react/-/react-18.2.29.tgz#88b48a287e00f6fdcd6f95662878fb701ae18b27"
+  integrity sha512-Z+ZrIRocWtdD70j45izShRwDuiB4JZqDegqMFW/I8aG5DxxLKOzVNoq62UIO82v9bdgi+DO1jvsb9sTEZUSm+Q==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.5"
+  resolved "https://registry.npmmirror.com/@types/scheduler/-/scheduler-0.16.5.tgz#4751153abbf8d6199babb345a52e1eb4167d64af"
+  integrity sha512-s/FPdYRmZR8SjLWGMCuax7r3qCWQw9QKHzXVukAuuIJkXkDRwp+Pu5LMIVFi0Fxbav35WURicYr8u1QsoybnQw==
+
 "@types/yargs-parser@*":
   version "21.0.2"
   resolved "https://registry.npmmirror.com/@types/yargs-parser/-/yargs-parser-21.0.2.tgz#7bd04c5da378496ef1695a1008bf8f71847a8b8b"
@@ -617,6 +643,11 @@
     i18next "^20.4.0"
     scroll-into-view-if-needed "^2.2.28"
     slate-history "^0.66.0"
+
+"@wangeditor/editor-for-react@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.npmmirror.com/@wangeditor/editor-for-react/-/editor-for-react-1.0.6.tgz#c77fa5651e196bb7e5a63e4abf0e32d54d4f38af"
+  integrity sha512-KJNSfgMr5Blzae3oyaiz20flMKHZHnvsz4bCYQKDCUs/qkvC+xNTnwedlCmhGP187oPWPEypCIYI8Zg6sz0psQ==
 
 "@wangeditor/editor@^5.1.23":
   version "5.1.23"
@@ -1840,6 +1871,11 @@ csso@^5.0.5:
   integrity sha512-0LrrStPOdJj+SPCCrGhzryycLjwcgUSHBtxNA8aIDxf0GLsRh1cKYhB00Gd1lDOS4yGH69+SNn13+TWbVHETFQ==
   dependencies:
     css-tree "~2.2.0"
+
+csstype@^3.0.2:
+  version "3.1.2"
+  resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
+  integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
 d@1, d@^1.0.1:
   version "1.0.1"
@@ -3398,7 +3434,7 @@ jest-worker@^29.4.3:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-js-tokens@^4.0.0:
+"js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmmirror.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
@@ -3642,6 +3678,13 @@ loglevelnext@^1.0.1:
   dependencies:
     es6-symbol "^3.1.1"
     object.assign "^4.1.0"
+
+loose-envify@^1.1.0:
+  version "1.4.0"
+  resolved "https://registry.npmmirror.com/loose-envify/-/loose-envify-1.4.0.tgz#71ee51fa7be4caec1a63839f7e682d8132d30caf"
+  integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
+  dependencies:
+    js-tokens "^3.0.0 || ^4.0.0"
 
 lower-case@^2.0.2:
   version "2.0.2"
@@ -4766,6 +4809,21 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+react-dom@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.npmmirror.com/react-dom/-/react-dom-18.2.0.tgz#22aaf38708db2674ed9ada224ca4aa708d821e3d"
+  integrity sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==
+  dependencies:
+    loose-envify "^1.1.0"
+    scheduler "^0.23.0"
+
+react@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.npmmirror.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
+  dependencies:
+    loose-envify "^1.1.0"
+
 readable-stream@^2.0.1, readable-stream@^2.0.2:
   version "2.3.8"
   resolved "https://registry.npmmirror.com/readable-stream/-/readable-stream-2.3.8.tgz#91125e8042bba1b9887f49345f6277027ce8be9b"
@@ -5009,6 +5067,13 @@ sax@^1.2.4:
   version "1.3.0"
   resolved "https://registry.npmmirror.com/sax/-/sax-1.3.0.tgz#a5dbe77db3be05c9d1ee7785dbd3ea9de51593d0"
   integrity sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==
+
+scheduler@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.npmmirror.com/scheduler/-/scheduler-0.23.0.tgz#ba8041afc3d30eb206a487b6b384002e4e61fdfe"
+  integrity sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==
+  dependencies:
+    loose-envify "^1.1.0"
 
 schema-utils@^1.0.0:
   version "1.0.0"

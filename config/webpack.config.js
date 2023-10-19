@@ -24,7 +24,7 @@ const appPath = resolve('src');
 
 const webpackConfig = {
   entry: {
-    app: resolve('./src/index.ts'),
+    app: resolve('./src/index.tsx'),
     // vendor: ['react', 'react-dom'] // 不变的代码分包
   },
   resolve: {
