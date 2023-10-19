@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esNext",
+    "declaration": false,
+    "removeComments": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/comp": ["./pages/components"]
+    },
+    "types": ["node"]
+  },
+  "include": [
+    "src",
+    "./types/*.d.ts"
+  ],
+  "lib": [
+    "es2015",
+    "es2016",
+    "dom"
+]
+}

@@ -1,0 +1,1 @@
+cross-env NODE_ENV=development webpack-dev-server --mode development --config config/webpack.config.js
