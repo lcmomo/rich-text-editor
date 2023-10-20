@@ -2,9 +2,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '@/assets/style.css';
-import MomoRichTextEditor from '@/components'
+import MomoEditor from '@/components'
 
 export {
-    MomoRichTextEditor
+    MomoEditor
 }
-ReactDOM.render(<MomoRichTextEditor />, document.getElementById('editor-container'));
+ReactDOM.render(<MomoEditor />, document.getElementById('editor-container'));
